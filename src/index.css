@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* 創建12等分的網格 */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header-button {
+  grid-column-start: 5; /* 從第五個網格開始 */
+  grid-column-end: span 1; /* 占據1個網格的空間 */
+}
+
+.Home-Services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4; /* 根据您的设计调整颜色 */
+  max-width: 1200px; /* 根据需要调整 */
+  margin: auto;
+  height: 300px; /* 根据需要调整高度 */
+}
+
+.Home-Services h3 {
+  font-size: 24px; /* 根據需要調整 */
+  color: #333; /* 根據您的設計調整顏色 */
+  margin-bottom: 0.5em;
+}
+
+.Home-Services p {
+  font-size: 16px; /* 根據需要調整 */
+  color: #666; /* 根據您的設計調整顏色 */
+  margin-bottom: 1em;
+}
+
+.Home-Services button {
+  background-color: #007bff; /* 根據您的設計調整顏色 */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Home-Services button:hover {
+  background-color: #0056b3; /* 滑鼠懸停時的顏色變深 */
 }
