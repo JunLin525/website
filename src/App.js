@@ -8,6 +8,10 @@ import About from './pages/About';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
+import Accounting from './pages/Services/Accounting';
+import Company from './pages/Services/Company';
+import CoSec from './pages/Services/CoSec';
+import PostInc from './pages/Services/PostInc';
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
       <Route path="/FAQs" element={<FAQ/>}/>
       <Route path="/Services" element={<Services/>}/>
       <Route path="/Contact-us" element={<Contact/>}/>
+      <Route path="/Company-Incorporation-Services" element={<Company/>}/>
+      <Route path="/Post-Incorporation-Support-Services" element={<PostInc/>}/>
+      <Route path="/Corporate-Secretary" element={<CoSec/>}/>
+      <Route path="/Accouting-Auditing-Tax-Filing" element={<Accounting/>}/>
       </Routes>
     </Router>
 

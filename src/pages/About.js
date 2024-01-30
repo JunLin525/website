@@ -30,17 +30,21 @@ function About() {
                         </div>
                         <div>
                             <h2>Our Services Area</h2>
-                            <div>
-                                <h3>Cayman Islands</h3>
+                            <div className='Home-Block'>
+                                <div className='Home-inner-Block'>
+                                    <h3>Cayman Islands</h3>
+                                </div>
+                                <div className='Home-inner-Block'>
+                                    <h3>THE BVI</h3>
+                                </div>
                             </div>
-                            <div>
-                                <h3>THE BVI</h3>
-                            </div>
-                            <div>
-                                <h3>Hong Kong</h3>
-                            </div>
-                            <div>
-                                <h3>Seychelles</h3>
+                            <div className='Home-Block'>
+                                <div className='Home-inner-Block'>
+                                    <h3>Hong Kong</h3>
+                                </div>
+                                <div className='Home-inner-Block'>
+                                    <h3>Seychelles</h3>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -20,7 +20,8 @@ function Home() {
                             </button>
                         </div>
                         <div className='Home-Block'>
-                            <div>
+                            
+                            <div className='Home-inner-Block'>
                                 <h3>Company Incorporation Services</h3>
                                 <p>
                                 Entrust your compliance needs to us, as we ensure meticulous adherence to local 
@@ -29,7 +30,7 @@ function Home() {
                                 </p>
                                 <span>read more</span>
                             </div>
-                            <div>
+                            <div className='Home-inner-Block'> 
                                 <h3>Privacy and Confidentiality:</h3>
                                 <p>
                                 Safeguard your business interests with our privacy-centric solutions. Our nominee 
@@ -37,14 +38,16 @@ function Home() {
                                 anonymity of beneficial owners.
                                 </p>
                             </div>
-                            <div>
+                        </div>
+                        <div className='Home-Block'>
+                            <div className='Home-inner-Block'>
                                 <h3>Tax Considerations</h3>
                                 <p>
                                 Strategically position your business for optimal tax efficiency by capitalizing on 
                                 jurisdictions with favorable corporate tax rates.
                                 </p>
                             </div>
-                            <div>
+                            <div className='Home-inner-Block'>
                                 <h3>Legal Advisory</h3>
                                 <p>
                                 Access our collaborative network of legal professionals, ensuring a robust foundation 

@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+/* 保持.Home-Services原样，这里假设它是一个全宽度的容器 */
+.Home-Services {
+  padding: 20px;
+  background-color: #ffffff; /* 根据设计自定义 */
+  /* 其他样式 */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* 修改.Home-Block样式，使其为flex容器，但不换行 */
+.Home-Block {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0f0f0; /* 背景色，可根据设计自定义 */
+  justify-content: space-between; /* 如果你希望内部元素之间有空间 */
 }
 
-.App-link {
-  color: #61dafb;
+/* 调整.Home-inner-Block的flex基础值，使其各占50% */
+.Home-inner-Block {
+  flex: 0 0 calc(50% - 20px); /* 占据50%的宽度减去间隙 */
+  background-color: #ffffff; /* 卡片背景色，可根据设计自定义 */
+  padding: 20px;
+  border-radius: 8px; /* 卡片圆角 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 盒子阴影 */
+  /* 其他样式 */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* 调整.Home-inner-Block的媒体查询 */
+@media (max-width: 768px) {
+  .Home-Block {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Home-inner-Block {
+    /* 在移动设备上，让每个.Home-inner-Block占据100%的宽度 */
+    flex: 0 0 100%;
   }
 }
+
+/* 你的其他样式保持不变 */

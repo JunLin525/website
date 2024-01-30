@@ -1,7 +1,7 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
-function Services() {
+function PostInc() {
     return (
         <div className="landing-backgrounds">
             <Header />
@@ -11,15 +11,16 @@ function Services() {
                         <br/>
                         <br/>
                         <div className='FAQ-head'>
-                            <h3>Services</h3>
+                            <h3>Post Incorporation Support Services</h3>
                         </div>
                         <div className='FAQ-Block'>
                         <div>
-                            <button><a href="/Company-Incorporation-Services">Company Incorporation Services</a> </button>
+                            <button><a href="/Corporate-Secretary">Corporate Secretary</a></button>
                         </div>
                         <div>
-                            <button><a href="/Post-Incorporation-Support-Services">Post Incorporation Support Services</a></button>
+                            <button><a href="/Accouting-Auditing-Tax-Filing">Accounting, Auditing & Tax Filing</a></button>
                         </div>
+
                         </div>
                     </div>
                 </div>
@@ -30,4 +31,4 @@ function Services() {
 }
 
 
-export default Services
+export default PostInc
