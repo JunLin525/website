@@ -38,3 +38,8 @@
 }
 
 /* 你的其他样式保持不变 */
+
+
+.centered-title {
+  text-align: center;
+}

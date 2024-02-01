@@ -6,7 +6,7 @@ function Footer() {
     <Box sx={{backgroundColor:'grey'}} component="footer" bgcolor="primary.main" color="white" py={3}>
       <Container>
         <Box display='block'>
-        <Typography variant="h7">4th Floor, No. 205, Section 1, Fuxing South Road, Da'an District, Taipei City 10666, Taiwan</Typography>
+        <Typography variant="h7">10666 台北市大安區復興南路一段205號4樓</Typography>
         </Box>
         <Box display='block'>  
         <Typography variant="body">TEL: +886-2-8772-8990</Typography>

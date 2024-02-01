@@ -45,3 +45,7 @@
 .Home-Services button:hover {
   background-color: #0056b3; /* 滑鼠懸停時的顏色變深 */
 }
+
+.landing-backgrounds {
+  overflow-x: hidden;
+}

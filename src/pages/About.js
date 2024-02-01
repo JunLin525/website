@@ -29,7 +29,7 @@ function About() {
                         while adhering to evolving regulations and international standards.
                         </div>
                         <div>
-                            <h2>Our Services Area</h2>
+                            <h2 className='centered-title'>Our Services Area</h2>
                             <div className='Home-Block'>
                                 <div className='Home-inner-Block'>
                                     <h3>Cayman Islands</h3>
