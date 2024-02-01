@@ -64,6 +64,7 @@ function FAQ() {
                         <div className='FAQ-head'>
                             <h3>FAQs</h3>
                         </div>
+                        <br/>
                         <div className='FAQ-Block'>
                             {faqs.map((faq, index) => (
                                 <Accordion key={index} sx={{ my: 2, bgcolor: 'white' }}>
@@ -71,11 +72,11 @@ function FAQ() {
                                         expandIcon={<ExpandMoreIcon />}
                                         aria-controls={`panel${index}-content`}
                                         id={`panel${index}-header`}
-                                        sx={{ bgcolor: 'black', color: 'white'}}
+                                        sx={{ bgcolor: 'white', color: 'black'}}
                                     >
                                         <Typography>{faq.question}</Typography>
                                     </AccordionSummary>
-                                    <AccordionDetails sx={{ bgcolor: 'white', color: 'black'}}>
+                                    <AccordionDetails sx={{ bgcolor: 'light-gray', color: 'black'}}>
                                         <Typography>{faq.answer}</Typography>
                                     </AccordionDetails>
                                 </Accordion>
