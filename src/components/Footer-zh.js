@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Box, Typography } from '@mui/material';
 
-function Footer() {
+function FooterZH() {
   return (
     <Box sx={{backgroundColor:'grey'}} component="footer" bgcolor="primary.main" color="white" py={3}>
       <Container>
@@ -19,4 +19,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterZH;

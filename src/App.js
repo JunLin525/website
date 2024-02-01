@@ -11,6 +11,7 @@ import Accounting from './pages/Services/Accounting';
 import Company from './pages/Services/Company';
 import CoSec from './pages/Services/CoSec';
 import PostInc from './pages/Services/PostInc';
+import HomeZH from './pages-zh/Home-zh';
 
 function App() {
   return (
@@ -25,6 +26,13 @@ function App() {
       <Route path="/Post-Incorporation-Support-Services" element={<PostInc/>}/>
       <Route path="/Corporate-Secretary" element={<CoSec/>}/>
       <Route path="/Accouting-Auditing-Tax-Filing" element={<Accounting/>}/>
+      <Route path="/Home-zh" element={<HomeZH/>}/>
+      <Route path="/About-us-zh" element={<HomeZH/>}/>
+      <Route path="/FAQs-zh" element={<HomeZH/>}/>
+      <Route path="/Contact-us-zh" element={<HomeZH/>}/>
+      <Route path="/Home-zh" element={<HomeZH/>}/>
+      <Route path="/Services-zh" element={<HomeZH/>}/>
+
       </Routes>
     </Router>
 

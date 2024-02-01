@@ -66,7 +66,7 @@ function Header() {
                     onClose={handleCloseLangMenu}
                 >
                     <MenuItem onClick={() => navigate('/')}>English</MenuItem>
-                    <MenuItem onClick={() => navigate('/chinese')}>中文</MenuItem>
+                    <MenuItem onClick={() => navigate('/Home-zh')}>中文</MenuItem>
                 </Menu>
             </Toolbar>
         </AppBar>
