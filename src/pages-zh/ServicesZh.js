@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import HeaderZH from '../components/Header-zh';
+import FooterZH from '../components/Footer-zh';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -9,33 +9,33 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom'; 
 
-function Services() {
+function ServicesZH() {
     return (
         <div className="landing-backgrounds">
-            <Header />
+            <HeaderZH />
             <div className='white-mocks'>
                 <div className="about-page">
                     <div className="About-content">
                         <br/>
                         <br/>
                         <div className='FAQ-head'>
-                            <h3>Services</h3>
+                            <h3>相關服務</h3>
                         </div>
                         <div className='FAQ-Block'>
                             <Box sx={{ minWidth: 275 }}>
                                 <Typography variant="h5" component="div">
-                                    Services We Offer
+                                    我們提供的服務
                                 </Typography>
                                 <Card variant="outlined">
                                     <CardContent>
 
                                         <br />
                                         <Typography variant="body2">
-                                            <Link to="/Company-Incorporation-Services">Company Incorporation Services</Link>
+                                            <Link to="/Company-Incorporation-Services">公司註冊與登記服務</Link>
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small">Learn More</Button>
+                                        <Button size="small">瞭解更多</Button>
                                     </CardActions>
                                 </Card>
                                 <Card variant="outlined">
@@ -43,21 +43,21 @@ function Services() {
 
                                         <br />
                                         <Typography variant="body2">
-                                            <Link to="/Post-Incorporation-Support-Services">Post Incorporation Support Services</Link>
+                                            <Link to="/Post-Incorporation-Support-Services">公司維運支援服務</Link>
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small">Learn More</Button>
+                                        <Button size="small">瞭解更多</Button>
                                     </CardActions>
                                 </Card>
                             </Box>
                         </div>
                     </div>
                 </div>
-                <Footer />
+                <FooterZH />
             </div>
         </div>
     )
 }
 
-export default Services;
+export default ServicesZH;
