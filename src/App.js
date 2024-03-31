@@ -14,8 +14,8 @@ import PostInc from './pages/Services/PostInc';
 import HomeZH from './pages-zh/Home-zh';
 import AboutZH from './pages-zh/AboutZh'
 import FAQZH from './pages-zh/FAQZh';
-import ContactZH from './pages-zh/ContactZh';
 import ServicesZH from './pages-zh/ServicesZh';
+import ContactZH from './pages-zh/ContactZh';
 
 function App() {
   return (
