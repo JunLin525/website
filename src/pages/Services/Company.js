@@ -16,20 +16,18 @@ function Company() {
                         <div className='FAQ-Block'>
                             <div>
                             Company Incorporation & Registry Services in Hong Kong, the Cayman Islands, and the British Virgin Islands (BVI), and the Seychelles.
-                            <br/>
-                            Our Services include:
-                            <br/>
-                            Formation and registration of companies
-                            Appointment of directors and officers, managers or general partners
-                            Issuance of shares to members, issuance of interests to limited partners or to members Incorporation of business companies
-                            Challenges Addressed:
-                            <br/>
-                            Embarking on international business setup involves navigating complex local laws and corporate governance guidelines, often causing businesses to struggle with the intricacies.
-                            Streamlined Approach:
-                            <br/>
-                            Our solution presents a streamlined process for quick offshore company formation, introducing a user-friendly client portal to simplify the overall experience and accelerate the formation with an efficient and streamlined process.
-                            Paving the Way for Success:
-                            Let us be your partner in paving the way for your international business success.
+Our Services include:
+Formation and registration of companies
+Appointment of directors and officers, managers or general partners
+Issuance of shares to members, issuance of interests to limited partners or to members Incorporation of business companies
+Challenges Addressed:
+<br/>
+Embarking on international business setup involves navigating complex local laws and corporate governance guidelines, often causing businesses to struggle with the intricacies.
+Streamlined Approach:
+<br/>
+Our solution presents a streamlined process for quick offshore company formation, introducing a user-friendly client portal to simplify the overall experience and accelerate the formation with an efficient and streamlined process.
+Paving the Way for Success:
+Let us be your partner in paving the way for your international business success.
 
                             </div>
                         </div>

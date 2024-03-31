@@ -10,10 +10,9 @@ function Home() {
                     <div className="food-content">
                         <br/>
                         <br/>
-                        <div className='Home-Services' style={{ backgroundImage: `url('https://hfrr6gpmrtor7uxhfg3za2bxmuo7g3mqx2s5alzslcv4cjzxh7ma.arweave.net/OWMfGeyM3R_S5ym3kGg3ZR3zbZC-pdAvMlirwSc3P9g')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-
+                        <div className='Home-Services'>
                             <h3>Offshore Company Services</h3>
-                            <p >
+                            <p>
                             XXXXXX emerges as a preeminent offshore service provider, specializing in international incorporations, corporate services, and compliance solutions across strategic locations, including Hong Kong, the Cayman Islands, and the British Virgin Islands (BVI), and the Seychelles .
                             </p>
                             <button>
